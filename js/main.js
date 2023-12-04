@@ -1,4 +1,5 @@
-const cssFiles = ["estilos.css", "estilos-retro.css", "estilos-peliculas.css"]
+
+const cssFiles = ["./style/estilos.css", "./style/estilos-retro.css", "./style/estilos-peliculas.css"]
 let activeFile = 0;
 const links = document.getElementsByTagName("link")
 function onClick() {
@@ -6,8 +7,8 @@ function onClick() {
     if (activeFile > 2) {
         activeFile = 0
     }
-    // links[0].href = cssFiles[activeFile]
-    // console.log(links[0].href)
-    console.log(cssFiles[activeFile])
+    links[0].href = cssFiles[activeFile]
+    console.log(links[0].href)
 }
+
 
