@@ -5,76 +5,72 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Afiliación</title>
     <link rel="stylesheet" href="./style/estilos.css">
-    <!-- <link rel="stylesheet" href="./style/estilos-retro.css">
-    <link rel="stylesheet" href="./style/estilos-peliculas.css"> -->
 </head>
 <body>
     <header>
-        <nav>
-            <h1>Venite al Gym!💪🏼</h1>
-        </nav>
+            <h1>Vení al Gym! 💪🏼</h1>
     </header>
     <form onsubmit="alert('Inició la afiliación!')">
         <fieldset>
-            <legend>🙋🏼‍♂️Datos Personales👀</legend>
-            <div>
-                <label for="userName">Nombre:*</label>
-                <input id="userName" name="userName" type="text" required>
-            </div>
-            <div>
-                <label for="userLastName">Apellido:*</label>
-                <input id="userLastName" name="userLastName" type="text" required>
-            </div>
-            <div>
-                <label for="dni">Edad</label>
-                <input id="dni" name="dni" type="text" required>
-            </div>
-            <div>
-                <label for="country">Nacionalidad:*</label>
-                <select id="country" name="country" required>
-                    <option hidden selected>- Seleccionar -</option>
-                    <option value="AR">Argentina</option>
-                    <option value="CH">Chile</option>
-                    <option value="CO">Colombia</option>
-                    <option value="EC">Ecuador</option>
-                    <option value="PY">Paraguay</option>
-                    <option value="UY">Uruaguay</option>
-                    <option value="VE">Venezuela</option>
-                </select>
-            </div>
-            <div>
-                <label for="msg">Contanos un poco de vos...</label>
-                <textarea name="msg" id="msg" cols="18" rows="2"></textarea>
-            </div>
-            <div>
-                <label for="gene">Sexo:*</label>
-                <div id="gene" name="gene" required>
-                        <input type="radio" id="f" name="gender" value="f" checked>
-                        <label for="f">Femenino</label>
-         
-                        <input type="radio" id="m" name="gender" value="m" >
-                        <label for="m">Masculino</label>
-            
-                        <input type="radio" id="o" name="gender" value="o" >
-                        <label for="o">Otro</label>
+            <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
+                <div>
+                    <label for="userName">Nombre:<sup>*</sup></label>
+                    <input id="userName" name="userName" type="text" required>
                 </div>
+                <div>
+                    <label for="userLastName">Apellido:<sup>*</sup></label>
+                    <input id="userLastName" name="userLastName" type="text" required>
+                </div>
+                <div>
+                    <label for="dni">Documento:<sup>*</sup></label>
+                    <input id="dni" name="dni" type="text" required>
+                </div>
+                <div>
+                    <label for="country">Nacionalidad:<sup>*</sup></label>
+                    <select id="country" name="country" required>
+                        <option selected>- Seleccionar -</option>
+                        <option value="AR">Argentina</option>
+                        <option value="CH">Chile</option>
+                        <option value="CO">Colombia</option>
+                        <option value="EC">Ecuador</option>
+                        <option value="PY">Paraguay</option>
+                        <option value="UY">Uruaguay</option>
+                        <option value="VE">Venezuela</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="msg">Contanos un poco de vos...</label>
+                    <textarea name="msg" id="msg" cols="18" rows="2"></textarea>
+                </div>
+                <div >
+                    <label for="gene">Sexo:<sup>*</sup></label>
+                    <div id="gene" name="gene" required>
+                            <input type="radio" id="f" name="gender" value="f" checked>
+                            <label for="f">Femenino</label>
+             
+                            <input type="radio" id="m" name="gender" value="m" >
+                            <label for="m">Masculino</label>
+                
+                            <input type="radio" id="o" name="gender" value="o" >
+                            <label for="o">Otro</label>
+                    </div>
             </div>
         </fieldset>
 
         <fieldset>
-            <legend>📱Datos de Contacto📧</legend>
+            <legend>📱 Datos de Contacto 📧</legend>
             <div>
                 <label for="phone">Teléfono:</label>
                 <input id="phone" name="phone" type="tel" placeholder="Código de área y número">
             </div>
             <div>
-                <label for="email">Dirección de correo electrónico:*</label>
+                <label for="email">Dirección de correo electrónico:<sup>*</sup></label>
                 <input id="email" name="email" type="email" placeholder="Ej: mail@gmail.com" required>
             </div>
         </fieldset>
 
         <fieldset>
-            <legend>🚴‍♂️Actividades🤸‍♂️</legend>
+            <legend>🚴‍♂️ Actividades 🤸‍♂️</legend>
             <p>Por favor, indicá cuáles actividades te interesan.</p>
             <div>
                 <p for="palermo">Sede Palermo:</p>
