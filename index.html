@@ -15,7 +15,7 @@
             <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
                 <div>
                     <label for="userName">Nombre:<sup>*</sup></label>
-                    <input id="userName" name="userName" type="text" required>
+                    <input id="userName" name="userName" type="text" required autofocus>
                 </div>
                 <div>
                     <label for="userLastName">Apellido:<sup>*</sup></label>
@@ -30,12 +30,9 @@
                     <select id="country" name="country" required>
                         <option selected>- Seleccionar -</option>
                         <option value="AR">Argentina</option>
-                        <option value="CH">Chile</option>
-                        <option value="CO">Colombia</option>
-                        <option value="EC">Ecuador</option>
-                        <option value="PY">Paraguay</option>
-                        <option value="UY">Uruaguay</option>
-                        <option value="VE">Venezuela</option>
+                        <option value="BR">Brasileña</option>
+                        <option value="UY">Uruguaya</option>
+                        <option value="OT">Otra</option>
                     </select>
                 </div>
                 <div>
@@ -44,19 +41,31 @@
                 </div>
                 <div >
                     <label for="gene">Sexo:<sup>*</sup></label>
-                    <div id="gene" name="gene" required>
-                            <input type="radio" id="f" name="gender" value="f" checked>
-                            <label for="f">Femenino</label>
-             
-                            <input type="radio" id="m" name="gender" value="m" >
-                            <label for="m">Masculino</label>
-                
-                            <input type="radio" id="o" name="gender" value="o" >
-                            <label for="o">Otro</label>
+                    <div id="gene" name="gene" class="f-direction-row align-center" required>
+                        <input type="radio" id="f" name="gender" value="f" class="m-padding" checked>
+                        <label for="f">Femenino</label>
+         
+                        <input type="radio" id="m" name="gender" value="m" class="m-padding">
+                        <label for="m">Masculino</label>
+            
+                        <input type="radio" id="o" name="gender" value="o" class="m-padding">
+                        <label for="o">Otro</label>
                     </div>
-            </div>
+                </div>
         </fieldset>
-
+        <div class="puntitos">
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+        </div>
         <fieldset>
             <legend>📱 Datos de Contacto 📧</legend>
             <div>
@@ -68,61 +77,74 @@
                 <input id="email" name="email" type="email" placeholder="Ej: mail@gmail.com" required>
             </div>
         </fieldset>
-
+        <div class="puntitos">
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+            <div class="color-puntitos"></div>
+        </div>
         <fieldset>
             <legend>🚴‍♂️ Actividades 🤸‍♂️</legend>
-            <p>Por favor, indicá cuáles actividades te interesan.</p>
-            <div>
+            <div class="align-left">
+                <p>Por favor, indicá cuáles actividades te interesan.</p>
                 <p for="palermo">Sede Palermo:</p>
-                
-                <input type="checkbox" id="cbox1" value="ba" />
-                <label for="cbox1">Básquet</label>
-
-                <input type="checkbox" id="cbox1" value="bo" />
-                <label for="cbox1">Boxeo</label>
-
-                <input type="checkbox" id="cbox1" value="fu" />
-                <label for="cbox1">Fútbol</label>
-
-                <input type="checkbox" id="cbox1" value="te" />
-                <label for="cbox1">Tenis</label>
-            </div>
-            <div>
+                <div class="f-direction-row align-center ">
+                    <input type="checkbox" id="cbox1" value="ba" class="m-padding" />
+                    <label for="cbox1">Básquet</label>
+    
+                    <input type="checkbox" id="cbox1" value="bo" class="m-padding" />
+                    <label for="cbox1">Boxeo</label>
+    
+                    <input type="checkbox" id="cbox1" value="fu" class="m-padding" />
+                    <label for="cbox1">Fútbol</label>
+    
+                    <input type="checkbox" id="cbox1" value="te" class="m-padding" />
+                    <label for="cbox1">Tenis</label>
+                </div>
                 <p for="rosario">Sede Rosario:</p>
-                
-                <input type="checkbox" id="cbox1" value="bas" />
-                <label for="cbox2">Básquet</label>
-
-                <input type="checkbox" id="cbox1" value="fut" />
-                <label for="cbox2">Fútbol</label>
-
-                <input type="checkbox" id="cbox1" value="rug" />
-                <label for="cbox2">Rugby</label>
-
-                <input type="checkbox" id="cbox1" value="vol" />
-                <label for="cbox2">Vóley</label>
+                <div class="f-direction-row align-center"> 
+                    <input type="checkbox" id="cbox1" value="bas" class="m-padding" />
+                    <label for="cbox2">Básquet</label>
+    
+                    <input type="checkbox" id="cbox1" value="fut" class="m-padding" />
+                    <label for="cbox2">Fútbol</label>
+    
+                    <input type="checkbox" id="cbox1" value="rug" class="m-padding" />
+                    <label for="cbox2">Rugby</label>
+    
+                    <input type="checkbox" id="cbox1" value="vol" class="m-padding" />
+                    <label for="cbox2">Voley</label>
+                </div>
             </div>
         </fieldset>
-
-        <div>
-            <input type="checkbox" id="cbox3" value="acepto" required/>
-            <label for="cbox3">Acepto las condiciones*</label>
+        <div class="term-cond">
+            <div class="align-center">
+                <input type="checkbox" id="cbox3" value="acepto" class="m-padding2" required/>
+                <label for="cbox3">Acepto las condiciones*</label>
+            </div>
+            <div class="align-center">
+                <input type="checkbox" id="cbox3" value="novedades" class="m-padding2" checked/>
+                <label for="cbox3">Deseo recibir novedades</label>
+            </div>
+            <p class="bold">*: campo obligatorio.</p>
         </div>
-        <div>
-            <input type="checkbox" id="cbox3" value="novedades" checked/>
-            <label for="cbox3">Deseo recibir novedades</label>
+        <div class="align-center f-direction-row justify-center">
+            <input type="submit" value="Iniciar afiliación">
+            <input type="reset" value="Restablecer">
         </div>
-
-        <p>*: campo obligatorio.</p>
-        
-        <input type="submit" value="Iniciar afiliación">
-        <input type="reset" value="Restablecer">
-        
     </form>
-    
-    <button type="button" onclick="onClick()">
-                    Cambiar estilo de CSS
-    </button>
+    <div class="cont-change">
+        <button type="button" onclick="onClick()" class="b-change">
+                        Cambiar estilo de CSS
+        </button>
+    </div>
 
 <script src="./js/main.js"></script>
 
