@@ -12,13 +12,14 @@ h1 {
     border-left: 1rem solid #1F2023;
     font-family: 'Poppins', sans-serif;
     font-size: 2.5rem;
+    margin-top: 0;
     text-align: center;
 }  
 body {
     background-color: #1F2023;
     display: block;
     font-family: 'Roboto', sans-serif;
-    margin-top: 3rem;
+    margin-top: 0rem;
     margin-right: auto;
     margin-left: auto;
     width: 40rem;
@@ -134,9 +135,9 @@ input[type="submit"],[type="reset"] {
     display: flex;
     align-items: center;
     flex-direction: row;
-    justify-content: center;
+    justify-content: right;
     width: auto;
-    margin: 1.5rem 0;
+    margin: 0.9rem 0;
 }
 .b-change {
     background-color: #4D6D63;
@@ -144,10 +145,13 @@ input[type="submit"],[type="reset"] {
     border-color: #ffffff;
     border-radius: 0.25rem;
     color: #ffffff;
-    padding: 0.75rem;
+    padding: 0.4rem;
 }
 .b-change:focus {
     background-color: #2f4b42;
+}
+.botones {
+    margin-bottom: 2rem;
 }
 .puntitos {
     display: flex;
