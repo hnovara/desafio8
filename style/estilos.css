@@ -4,7 +4,7 @@ html {
     background-color: #1F2023;
     font-size: 16px;
 }
-header h1 {
+h1 {
     color: #E8EAED;
     border-top: 1rem solid #4D6D63;
     border-right: 1rem solid #1F2023;
@@ -16,6 +16,7 @@ header h1 {
 }  
 body {
     background-color: #1F2023;
+    display: block;
     font-family: 'Roboto', sans-serif;
     margin-top: 3rem;
     margin-right: auto;
@@ -50,7 +51,7 @@ legend {
     text-transform: capitalize;
 }
 label, input {
-    display: block;
+    display: flex;
     text-align: center;
 }
 input:focus, textarea:focus {
@@ -103,9 +104,8 @@ input[type="radio"],[type="checkbox"] {
     margin-left: 0.2rem;
 }
 .align-left {
-    display: inline-block;
+    display: block;
     align-items: left;
-    width: 38rem
 }
 .term-cond {
     color: white;
@@ -165,7 +165,18 @@ input[type="submit"],[type="reset"] {
     height: 0.85rem;
     width: 0.85rem;
 }
-
-
-
-
+@media screen and (max-width: 690px) {
+    body {
+        margin-right: 1%;
+        margin-left: 1%;
+        width: auto;
+    }
+    fieldset {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: auto;
+    }
+    input, textarea, select, article {
+        width: 20rem;
+    }
+}

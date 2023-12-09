@@ -7,10 +7,8 @@
     <link rel="stylesheet" href="./style/estilos.css">
 </head>
 <body>
-    <header>
-            <h1>Vení al Gym! 💪🏼</h1>
-    </header>
     <form onsubmit="alert('Inició la afiliación!')">
+        <h1>Vení al Gym! 💪🏼</h1>
         <fieldset>
             <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
                 <div>
@@ -90,11 +88,11 @@
             <div class="color-puntitos"></div>
             <div class="color-puntitos"></div>
         </div>
-        <fieldset>
+        <fieldset class="align-left">
             <legend>🚴‍♂️ Actividades 🤸‍♂️</legend>
-            <div class="align-left">
+            <article>
                 <p>Por favor, indicá cuáles actividades te interesan.</p>
-                <p for="palermo">Sede Palermo:</p>
+                <p>Sede Palermo:</p>
                 <div class="f-direction-row align-center ">
                     <input type="checkbox" id="cbox1" value="ba" class="m-padding" />
                     <label for="cbox1">Básquet</label>
@@ -108,7 +106,7 @@
                     <input type="checkbox" id="cbox1" value="te" class="m-padding" />
                     <label for="cbox1">Tenis</label>
                 </div>
-                <p for="rosario">Sede Rosario:</p>
+                <p>Sede Rosario:</p>
                 <div class="f-direction-row align-center"> 
                     <input type="checkbox" id="cbox1" value="bas" class="m-padding" />
                     <label for="cbox2">Básquet</label>
@@ -122,7 +120,7 @@
                     <input type="checkbox" id="cbox1" value="vol" class="m-padding" />
                     <label for="cbox2">Voley</label>
                 </div>
-            </div>
+            </article>
         </fieldset>
         <div class="term-cond">
             <div class="align-center">
@@ -139,14 +137,12 @@
             <input type="submit" value="Iniciar afiliación">
             <input type="reset" value="Restablecer">
         </div>
+        <div class="cont-change">
+            <button type="button" onclick="onClick()" class="b-change">
+                            Cambiar estilo de CSS
+            </button>
+        </div>
     </form>
-    <div class="cont-change">
-        <button type="button" onclick="onClick()" class="b-change">
-                        Cambiar estilo de CSS
-        </button>
-    </div>
-
 <script src="./js/main.js"></script>
-
 </body>
 </html>
