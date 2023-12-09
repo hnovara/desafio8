@@ -4,6 +4,15 @@ html {
     background-color: #1F2023;
     font-size: 16px;
 }
+body {
+    background-color: #1F2023;
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    margin-top: 0rem;
+    margin-right: auto;
+    margin-left: auto;
+    width: 40rem;
+}
 h1 {
     color: #E8EAED;
     border-top: 1rem solid #4D6D63;
@@ -15,15 +24,6 @@ h1 {
     margin-top: 0;
     text-align: center;
 }  
-body {
-    background-color: #1F2023;
-    display: block;
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0rem;
-    margin-right: auto;
-    margin-left: auto;
-    width: 40rem;
-}
 fieldset {
     align-items: center;
     background-color: #D7E1DE;
@@ -80,7 +80,7 @@ input, textarea, select {
     width: 27.5rem;
 }
 select {
-    width: 26.8rem;
+    width: 26.8rem;.
 }
 textarea {
     height: 8rem;
@@ -142,7 +142,6 @@ input[type="submit"],[type="reset"] {
 .b-change {
     background-color: #4D6D63;
     border: 1px solid #517167;
-    border-color: #ffffff;
     border-radius: 0.25rem;
     color: #ffffff;
     padding: 0.4rem;
