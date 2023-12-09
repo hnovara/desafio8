@@ -1,6 +1,203 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&family=Roboto:wght@100&display=swap');
 
 body {
     background-color: rgb(229, 255, 0);
     cursor: ew-resize;
 }
+
+
+@media screen and (max-width: 780px) {
+    html {
+        margin-right: 2%;
+        margin-left: 2%;
+        width: auto;
+    }
+    input[type="submit"],[type="reset"] {
+        margin: 2rem 0.25rem;
+    }
+    .b-change {
+        line-height: 1.8;
+    }
+
+
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+/* https://coolors.co/0d3b66-faf0ca-f4d35e-ee964b-f95738 */
+     
+/* html {
+    cursor: pointer;
+    font-size: 16px;
+}
+body {
+    background: #0D3B66;
+    display: block;
+    font-family: 'Press Start 2P';
+}
+.cont-h1 {
+    background-image: url("../img/man.jpg");
+    background-origin: border-box;
+    background-repeat: no-repeat;
+    background-position: 25% 75%;;
+    background-size: cover;
+    box-shadow: 0.25rem 0.25rem 1.5rem inset silver;
+    border: 0.5rem solid #EE964B;
+    border-radius: 2rem;
+    margin: 0 15% 2rem 15%;
+    padding: 1rem;
+}
+h1 {
+    align-items: center;
+    color: #FAF0CA;
+    font-size: 1.75rem;
+    margin: 1.5rem 3rem;
+    text-align: left;
+}  
+p {
+    color: #0D3B66;
+    margin: 2rem 0 1rem 0;
+}
+fieldset {
+    align-items: left;
+    background-color: #FAF0CA;
+    border: 0.5rem double #EE964B;
+    border-radius: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: 3rem 15%;
+    padding: 2rem 3rem;    
+}
+legend {
+    background-color: #EE964B;
+    border-radius: 1rem;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #FAF0CA;
+    padding: 0.5rem;
+    width: 60%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+input, select, textarea {
+    box-shadow: 0.25rem 0.25rem 0.5rem silver; 
+}
+label {
+    color: #0D3B66;
+    margin: 0 0.5rem;
+    margin-top: 0.2rem;
+    margin: 1rem 0 1rem 0;
+}
+label, input, select, textarea {
+    display: inline-block;
+    text-align: left;
+    width: 100%;
+}
+select {
+    width: 102.22%;
+}
+input, textarea, select {
+    background-color: #EE964B; 
+    border-radius: 0.5rem;
+    border: 1px solid #0D3B66;
+    font-size: 0.9rem;
+    padding: 0.5rem 0.5rem;
+    resize: none;
+    color: #0D3B66;
+    font-family: 'Press Start 2P';
+    text-align: left;
+}
+input:focus, textarea:focus, select:focus {
+    background-color:#F4D35E
+}
+input::placeholder {
+    color:#FAF0CA;
+}
+input[type="radio"],[type="checkbox"] {
+    width: auto;
+}
+textarea {
+    height: 12rem;
+}
+.f-direction-row {
+    display: flex;
+    flex-direction: row;
+}
+.align-center {
+    display: flex;
+    align-items: center;
+}
+.m-padding {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+}
+.m-padding2 {
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
+    color:#FAF0CA;
+}
+.align-left {
+    display: block;
+    align-items: left;
+}
+.term-cond {
+    color:#FAF0CA;
+    font-size: 0.925rem;
+    margin: 0rem 15%;
+}
+.ch-color {
+    color:#FAF0CA;
+}
+.bold {
+    font-weight: bold;
+    color:#FAF0CA;
+    margin-left: 0.9rem;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]:focus,[type="reset"]:focus {
+    background-color:#F4D35E;
+    color: #0D3B66;
+}
+input[type="submit"],[type="reset"] {
+    align-items: center;
+    background-color:#EE964B;
+    border-color: #FAF0CA;
+    border-radius: 5rem;
+    box-shadow: none; 
+    color: #0D3B66;
+    font-weight: bold;
+    margin: 2rem 1rem;
+    padding: 1rem;
+    text-align: center;
+    width: 20rem;
+}
+.cont-change {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    width: auto;
+    margin: 1.5rem 0;
+}
+.b-change {
+    background-color: #EE964B;
+    border: 1px solid #FAF0CA;
+    border-radius: 5rem;
+    font-family: 'Press Start 2P';
+    font-weight: bold;
+    color: #0D3B66;
+    margin: 0rem 15%;
+    padding: 0.75rem 2.5rem;
+}
+.b-change:focus {
+    background-color:#F4D35E;
+    color: #0D3B66;
+}
+.botones {
+    margin-bottom: 2rem;
+} */ */
