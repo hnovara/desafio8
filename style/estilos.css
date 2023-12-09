@@ -167,16 +167,9 @@ input[type="submit"],[type="reset"] {
 }
 @media screen and (max-width: 690px) {
     body {
-        margin-right: 1%;
-        margin-left: 1%;
-        width: auto;
-    }
-    fieldset {
         margin-right: 2%;
         margin-left: 2%;
         width: auto;
     }
-    input, textarea, select, article {
-        width: 20rem;
-    }
 }
+
