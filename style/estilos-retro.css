@@ -62,9 +62,7 @@ input, select, textarea {
 }
 label {
     color: #0D3B66;
-    margin: 0 0.5rem;
-    margin-top: 0.2rem;
-    margin: 1rem 0 1rem 0;
+    margin: 1rem 0;
 }
 label, input, select, textarea {
     display: inline-block;
@@ -77,7 +75,7 @@ select {
 input, textarea, select {
     background-color: #EE964B; 
     border-radius: 0.5rem;
-    border: 1px solid #0D3B66;
+    border: 2px dashed #F4D35E;
     font-size: 0.9rem;
     padding: 0.5rem 0.5rem;
     resize: none;
@@ -110,12 +108,12 @@ textarea {
     align-items: center;
 }
 .m-padding {
-    margin-right: 0.4rem;
-    margin-left: 0.4rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
 }
 .m-padding2 {
-    margin-right: 0.4rem;
-    margin-left: 0.4rem;
+    margin-right: 0.8rem;
+    margin-left: 0.8rem;
     color:#FAF0CA;
 }
 .align-left {
@@ -125,6 +123,7 @@ textarea {
 .term-cond {
     color:#FAF0CA;
     font-size: 0.925rem;
+    margin-left: 0.75rem;
 }
 .ch-color {
     color:#FAF0CA;
@@ -145,7 +144,7 @@ input[type="submit"]:focus,[type="reset"]:focus {
 input[type="submit"],[type="reset"] {
     align-items: center;
     background-color:#EE964B;
-    border-color: #FAF0CA;
+    border: 2px solid #F4D35E;
     border-radius: 5rem;
     box-shadow: none; 
     color: #0D3B66;
@@ -178,6 +177,12 @@ input[type="submit"],[type="reset"] {
 }
 .botones {
     margin-bottom: 2rem;
+}
+.insert-video {
+    display:none !important;
+}
+.w-term {
+    color:#FAF0CA;
 }
 
 @media screen and (max-width: 780px) {

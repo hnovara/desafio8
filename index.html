@@ -18,45 +18,45 @@
         </div>
         <fieldset>
             <legend>🙋🏼‍♂️ Datos Personales 👀</legend>
-                <div>
-                    <label for="userName">Nombre:<sup>*</sup></label>
-                    <input id="userName" name="userName" type="text" required autofocus>
+            <div>
+                <label for="userName">Nombre:<sup>*</sup></label>
+                <input id="userName" name="userName" type="text" required autofocus>
+            </div>
+            <div>
+                <label for="userLastName">Apellido:<sup>*</sup></label>
+                <input id="userLastName" name="userLastName" type="text" required>
+            </div>
+            <div>
+                <label for="dni">Documento:<sup>*</sup></label>
+                <input id="dni" name="dni" type="text" required>
+            </div>
+            <div>
+                <label for="country">Nacionalidad:<sup>*</sup></label>
+                <select id="country" name="country" required>
+                    <option selected>- Seleccionar -</option>
+                    <option value="AR">Argentina</option>
+                    <option value="BR">Brasileña</option>
+                    <option value="UY">Uruguaya</option>
+                    <option value="OT">Otra</option>
+                </select>
+            </div>
+            <div>
+                <label class="t-area" for="msg">Contanos un poco de vos...</label>
+                <textarea name="msg" id="msg" cols="18" rows="2"></textarea>
+            </div>
+            <div >
+                <label class="w-gene" for="gene">Sexo:<sup>*</sup></label>
+                <div id="gene" name="gene" class="f-direction-row align-center" required>
+                    <input type="radio" id="f" name="gender" value="f" class="m-padding" checked>
+                    <label class="w-label" for="f">Femenino</label>
+                    
+                    <input type="radio" id="m" name="gender" value="m" class="m-padding">
+                    <label class="w-label"  for="m">Masculino</label>
+                    
+                    <input type="radio" id="o" name="gender" value="o" class="m-padding">
+                    <label class="w-label"  for="o">Otro</label>
                 </div>
-                <div>
-                    <label for="userLastName">Apellido:<sup>*</sup></label>
-                    <input id="userLastName" name="userLastName" type="text" required>
-                </div>
-                <div>
-                    <label for="dni">Documento:<sup>*</sup></label>
-                    <input id="dni" name="dni" type="text" required>
-                </div>
-                <div>
-                    <label for="country">Nacionalidad:<sup>*</sup></label>
-                    <select id="country" name="country" required>
-                        <option selected>- Seleccionar -</option>
-                        <option value="AR">Argentina</option>
-                        <option value="BR">Brasileña</option>
-                        <option value="UY">Uruguaya</option>
-                        <option value="OT">Otra</option>
-                    </select>
-                </div>
-                <div>
-                    <label for="msg">Contanos un poco de vos...</label>
-                    <textarea name="msg" id="msg" cols="18" rows="2"></textarea>
-                </div>
-                <div >
-                    <label for="gene">Sexo:<sup>*</sup></label>
-                    <div id="gene" name="gene" class="f-direction-row align-center" required>
-                        <input type="radio" id="f" name="gender" value="f" class="m-padding" checked>
-                        <label for="f">Femenino</label>
-         
-                        <input type="radio" id="m" name="gender" value="m" class="m-padding">
-                        <label for="m">Masculino</label>
-            
-                        <input type="radio" id="o" name="gender" value="o" class="m-padding">
-                        <label for="o">Otro</label>
-                    </div>
-                </div>
+            </div>
         </fieldset>
         <div class="puntitos">
             <div class="color-puntitos"></div>
@@ -102,49 +102,54 @@
                 <p>Sede Palermo:</p>
                 <div class="f-direction-row align-center ">
                     <input type="checkbox" id="cbox1" value="ba" class="m-padding" />
-                    <label for="cbox1">Básquet</label>
-    
+                    <label class="w-label" for="cbox1">Básquet</label>
+                    
                     <input type="checkbox" id="cbox1" value="bo" class="m-padding" />
-                    <label for="cbox1">Boxeo</label>
-    
+                    <label class="w-label" for="cbox1">Boxeo</label>
+                    
                     <input type="checkbox" id="cbox1" value="fu" class="m-padding" />
-                    <label for="cbox1">Fútbol</label>
-    
+                    <label class="w-label" for="cbox1">Fútbol</label>
+                    
                     <input type="checkbox" id="cbox1" value="te" class="m-padding" />
-                    <label for="cbox1">Tenis</label>
+                    <label class="w-label" for="cbox1">Tenis</label>
                 </div>
                 <p>Sede Rosario:</p>
                 <div class="f-direction-row align-center"> 
                     <input type="checkbox" id="cbox1" value="bas" class="m-padding" />
-                    <label for="cbox2">Básquet</label>
+                    <label class="w-label" for="cbox2">Básquet</label>
     
                     <input type="checkbox" id="cbox1" value="fut" class="m-padding" />
-                    <label for="cbox2">Fútbol</label>
-    
+                    <label class="w-label" for="cbox2">Fútbol</label>
+                    
                     <input type="checkbox" id="cbox1" value="rug" class="m-padding" />
-                    <label for="cbox2">Rugby</label>
-    
+                    <label class="w-label" for="cbox2">Rugby</label>
+                    
                     <input type="checkbox" id="cbox1" value="vol" class="m-padding" />
-                    <label for="cbox2">Voley</label>
+                    <label class="w-label" for="cbox2">Voley</label>
                 </div>
             </div>
         </fieldset>
-        <div class="term-cond">
-            <div class="align-center">
-                <input type="checkbox" id="cbox3" value="acepto" class="m-padding2" required/>
-                <label for="cbox3" class="ch-color">Acepto las condiciones*</label>
+        <div class="cont-term">
+            <div class="term-cond">
+                <div class="align-center">
+                    <input type="checkbox" id="cbox3" value="acepto" class="m-padding2" required/>
+                    <label class="w-term" for="cbox3" class="ch-color">Acepto las condiciones*</label>
+                </div>
+                <div class="align-center">
+                    <input type="checkbox" id="cbox3" value="novedades" class="m-padding2" checked/>
+                    <label class="w-term" for="cbox3" class="ch-color">Deseo recibir novedades</label>
+                </div>
+                <p class="bold">*: campo obligatorio.</p>
             </div>
-            <div class="align-center">
-                <input type="checkbox" id="cbox3" value="novedades" class="m-padding2" checked/>
-                <label for="cbox3" class="ch-color">Deseo recibir novedades</label>
+            <div class="insert-video">
+                <video width="480px" controls src="./video/gym-video.mp4" onloadstart="this.muted=true" autoplay loop></video>
             </div>
-            <p class="bold">*: campo obligatorio.</p>
         </div>
         <div class="botones align-center f-direction-row justify-center">
             <input type="submit" value="Iniciar afiliación">
             <input type="reset" value="Restablecer">
         </div>
     </form>
-<script src="./js/main.js"></script>
+    <script src="./js/main.js"></script>
 </body>
 </html>

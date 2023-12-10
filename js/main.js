@@ -1,4 +1,3 @@
-
 const cssFiles = ["./style/estilos.css", "./style/estilos-retro.css", "./style/estilos-peliculas.css"]
 let activeFile = 0;
 const links = document.getElementsByTagName("link")
@@ -10,5 +9,3 @@ function onClick() {
     links[0].href = cssFiles[activeFile]
     console.log(links[0].href)
 }
-
-

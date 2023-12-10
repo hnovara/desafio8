@@ -168,6 +168,10 @@ input[type="submit"],[type="reset"] {
     height: 0.85rem;
     width: 0.85rem;
 }
+.insert-video {
+    display:none !important;
+}
+
 @media screen and (max-width: 690px) {
     body {
         margin-right: 2%;

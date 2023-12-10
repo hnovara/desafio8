@@ -3,21 +3,214 @@
 
 html {
     background-color: #02111B;
-    cursor: pointer;
     font-size: 16px;
+}
+body {
+    font-family: 'Martel Sans';
     margin: 0 15% 2rem 15%;
 }
-
+h1 {
+    align-items: center;
+    font-size: 3.2rem;
+    font-variant: small-caps;
+    color: #BDD5EA;
+    letter-spacing: 0.5rem;
+    margin: 2.5rem 0 3.75rem 1.5rem;
+    text-align: left;
+    text-shadow: 2px 2px 2px #577399;
+}  
+p {
+    color: #F7F7FF;
+    margin: 2.5rem 0.75rem 0 0.75rem;
+    font-size: 1.1rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 2px #577399;
+}
 fieldset {
+    display: flex;
+    align-items: left;
     background-image: url("../img/gym.jpg");
     background-origin: border-box;
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    background-attachment: fixed ;
+    background-attachment: fixed;
+    border: 0.12rem solid #BDD5EA;
+    border-radius: 0.4rem;
+    box-shadow: 2px 2px 2px #577399; 
+    flex-direction: column;
+    justify-content: center;
+    margin: 1.5rem 0;
+    padding: 2rem 1.5rem 3.5rem 1.5rem;
+    text-shadow: 2px 2px 2px #577399; 
+}
+legend {
+    background-color: #BDD5EA;
+    text-shadow: 2.25px 2.25px 2px #577399;
+    border-radius: 0.3rem;
+    box-shadow: 2px 2px 2px #577399; 
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #02111B;
+    padding: 0.12rem 0.5rem;
+    width: 28rem;
+}
+input, select, textarea {
+    box-shadow: 1px 1px 2px #577399; 
+}
+label {
+    display: inline-block;
+    color: #F7F7FF;
+    font-size: 1.25rem;
+    font-weight: bold;
+    margin: 2rem 0 0 0;
+    padding: 0.1rem 0.7rem;
+    text-align: left;
+    width: 13.5rem;
 }
 input {
     background-color: #BDD5EA;
 }
+label, input, textarea {
+    display: inline-block;
+    text-align: left;
+    font-size: 1.1rem;
+    padding: 0.125rem 0.5rem;
+    width: 13.25rem;
+}
+select {
+    display: inline-block;
+    background-color: #BDD5EA;
+    height: 1.9rem;
+    text-align: left;
+    padding: 0.125rem 0.5rem;
+    width: 14.5rem;
+}
+.t-area {
+    display: flex;
+    flex-direction: column;
+    width: 27.5rem;
+}
+textarea {
+    background-color: #BDD5EA;
+    height: 10rem;
+    margin-left: 0.5rem;
+    width: 27.5rem;
+}
+input:focus, textarea:focus, select:focus {
+    background-color:#577399;
+    color: #F7F7FF;
+}
+input::placeholder {
+    color:#02111b80;
+}
+input[type="radio"],[type="checkbox"] {
+    width: 1rem;
+    box-shadow: none;
+}
+.w-label {
+    width: 8.25rem;
+}
+.m-padding {
+    margin-left: 0.5rem;
+}
+.term-cond {
+    color:#FAF0CA;
+    font-size: 0.925rem;
+    text-shadow: 2px 2px 2px #577399;
+    margin-left: 1.75rem;
+}
+.f-direction-row {
+    display: inline-block;
+}
+.w-gene {
+    width: 27.5rem;
+}
+.bold {
+    font-size: 1.1rem;
+    font-weight: bold;;
+    margin-left: 1rem;
+    margin-top: 2.1rem;
+}
+.justify-center {
+    display: flex;
+    justify-content: center;
+}
+input[type="submit"]:focus,[type="reset"]:focus {
+    background-color:#F4D35E;
+    color: #0D3B66;
+}
+.w-term {
+    width: 15rem;
+    margin-top: 0.5rem;
+}
+input[type="submit"]:focus,[type="reset"]:focus {
+    background-color:#FE5F55;
+    color: #02111B;
+}
+input[type="submit"],[type="reset"] {
+    align-items: left;
+    background-color:#577399;
+    border: 0.12rem solid #BDD5EA;
+    border-radius: 0.75rem;
+    box-shadow: 2px 2px 2px #F7F7FF; 
+    color: #02111B;
+    font-size: 1.3rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin: 3rem 3rem;
+    padding: 0.4rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #BDD5EA;
+    width: 15rem;
+}
+.cont-change {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: right;
+    margin-top: 1.25rem;
+    width: auto;
+}
+.b-change {
+    align-items: center;
+    background-color:#577399;
+    border: 0.12rem solid #BDD5EA;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px #F7F7FF; 
+    color: #02111B;
+    font-size: 1.1rem;
+    font-variant: small-caps;
+    font-weight: bold;
+    margin-top: 0.25rem;
+    padding: 0.4rem;
+    text-align: center;
+    text-shadow: 1px 1px 2px #BDD5EA;
+    width: 15rem;
+}
+.b-change:focus {
+    background-color:#FE5F55;
+    color: #02111B;
+}
+.botones {
+    margin-bottom: 2rem;
+}
+.cont-term {
+    display: flex;
+    align-items: center;
+    border: 0.12rem solid #BDD5EA;
+    border-radius: 0.5rem;
+    box-shadow: 2px 2px 2px #577399; 
+    flex-flow: wrap;
+    justify-content: space-between;
+    margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 780px) {
+
+}
+
+
+
 
 
