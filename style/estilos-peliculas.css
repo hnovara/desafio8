@@ -63,8 +63,8 @@ label {
     color: #F7F7FF;
     font-size: 1.25rem;
     font-weight: bold;
-    margin: 1rem 0 1.5rem 0;
-    padding: 0.1rem 0.7rem;
+    margin: 1rem 0 1.3rem 0;
+    padding: 0 0.7rem;
     text-align: left;
     width: 13.5rem;
 }
@@ -130,7 +130,7 @@ input[type="radio"],[type="checkbox"] {
     font-size: 1.1rem;
     font-weight: bold;;
     margin-left: 1rem;
-    margin-top: 2.1rem;
+    margin-top: 1.2rem;
 }
 .justify-center {
     display: flex;
@@ -180,9 +180,7 @@ input[type="submit"],[type="reset"] {
     color: #02111B;
     font-size: 1.1rem;
     font-variant: small-caps;
-    font-weight: bold;
-    margin-top: 0.25rem;
-    padding: 0.4rem;
+    font-weight: bold; 
     text-align: center;
     text-shadow: 1px 1px 2px #BDD5EA;
     width: 15rem;
@@ -202,7 +200,12 @@ input[type="submit"],[type="reset"] {
     box-shadow: 2px 2px 2px #577399; 
     flex-flow: wrap;
     justify-content: space-between;
-    margin-top: 2.5rem;
+}
+.insert-video {
+    display: flex;
+    align-items: center;
+    padding: 0.15rem;
+
 }
 
 @media screen and (max-width: 1120px) {
