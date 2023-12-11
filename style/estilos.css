@@ -54,6 +54,8 @@ legend {
 label, input {
     display: flex;
     text-align: center;
+    justify-content: center;
+
 }
 input:focus, textarea:focus {
     background-color:#4D6D63;
