@@ -130,7 +130,8 @@ input[type="radio"],[type="checkbox"] {
     font-size: 1.1rem;
     font-weight: bold;;
     margin-left: 1rem;
-    margin-top: 1.2rem;
+    margin-top: 0.75rem;
+    margin-bottom: 0.5rem;
 }
 .justify-center {
     display: flex;
@@ -205,7 +206,6 @@ input[type="submit"],[type="reset"] {
     display: flex;
     align-items: center;
     padding: 0.15rem;
-
 }
 
 @media screen and (max-width: 1120px) {
@@ -272,15 +272,6 @@ input[type="submit"],[type="reset"] {
         align-items: center;
         margin-top: 2.25rem;
     }
- 
-
-
-
-
-
-
-
-
 }
 
 
